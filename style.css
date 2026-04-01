@@ -8,6 +8,15 @@
   --muted: #888899;
   --border: #2a2a3a;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #007bff;   /* optional: nice blue on hover */
+}
 
 .project-img {
   width: 100%;
